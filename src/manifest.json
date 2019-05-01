@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "BnwUnshit",
+  "version": "1.0",
+
+  "description": "Removes shit from bnw",
+
+  "icons": {
+    "48": "icons/unshit-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://bnw.im/*"],
+      "js": ["jquery-3.4.0.min.js", "unshit.js"]
+    }
+  ]
+
+}
