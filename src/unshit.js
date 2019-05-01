@@ -1,5 +1,5 @@
 var CONFIG = {
-	shitposters: [ 'anonymous', 'mad_hatter', 'telegram' ],
+	shitposters: [ 'anonymous', 'mad_hatter', 'telegram', 'moskvano' ],
 }
 
 var l = function( text ) {
